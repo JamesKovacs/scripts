@@ -1,0 +1,1 @@
+[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String($args[0]))
