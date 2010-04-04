@@ -1,0 +1,3 @@
+[submodule "posh-git"]
+	path = posh-git
+	url = git@github.com:JamesKovacs/posh-git.git
