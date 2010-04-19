@@ -1,13 +1,4 @@
-Push-Location c:/Utilities/Scripts/posh-git/
-
-# Git utils
-. ./GitUtils.ps1
-. ./GitPrompt.ps1
-
-# Use Git tab expansion
-. ./GitTabExpansion.ps1
-
-Pop-Location
+Import-Module c:/Utilities/Scripts/posh-git/posh-git
 
 # Set up a simple prompt, adding the git prompt parts inside git repos
 function prompt {
@@ -46,5 +37,3 @@ function TabExpansion($line, $lastWord) {
 }
 
 Enable-GitColors
-
-Pop-Location
