@@ -1,0 +1,1 @@
+$env:path += ';c:\Utilities\vim\vim72\;'
