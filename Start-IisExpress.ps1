@@ -1,2 +1,5 @@
-$physDir = resolve-path $args
-& "${env:ProgramFiles(x86)}\IIS Express\iisexpress.exe" /path:$physDir
+param(
+  $dir = '.'
+)
+$absoluteDirectory = resolve-path $dir
+& "${env:ProgramFiles(x86)}\IIS Express\iisexpress.exe" /path:$absoluteDirectory
